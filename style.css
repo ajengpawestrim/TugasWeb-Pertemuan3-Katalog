@@ -1,0 +1,35 @@
+:root {
+    --bs-primary: #412918;
+    --bs-primary-rgb: 111, 78, 55;
+}
+
+.bg-dark {
+    background-color: #3e2a1e !important;
+}
+
+.btn-primary {
+    background-color: #412918;
+    border-color: #412918;
+}
+
+.btn-primary:hover {
+    background-color: #543a29;
+    border-color: #543a29;
+}
+
+body {
+    background-color: #f5f0e8;
+}
+
+h1, .navbar-brand{
+    font-size: clamp(1.2rem, 4vw, 2rem);
+}
+
+.card-title{
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
